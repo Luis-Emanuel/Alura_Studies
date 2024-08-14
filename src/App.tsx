@@ -1,9 +1,13 @@
 import React from 'react';
+import Formulario from './components/Formulario';
+import Lista from './components/Lista/inedx';
 
 function App() {
+
   return (
     <div className="App">
-      Helo Word
+      <Formulario />
+      <Lista />
     </div>
   );
 }
